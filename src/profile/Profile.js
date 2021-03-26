@@ -8,7 +8,7 @@ fontFamily:'Times New Roman Times serif '
     return (
         <div style={styleDiv}>
           {props.handleName(props.fullName)}  
-            {props.photo}
+            {props.children}
          <h1>{props.fullName}</h1>
          <h3>{props.profession}</h3>
          <span> {props.bio}</span>
