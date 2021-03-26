@@ -8,9 +8,11 @@ function App() {
     const profession = "Racing cyclist";
     const handleName = FullName =>{ alert(`Welcome to ${FullName} profile`);}
     return (
-      <div className="App-header">
-         
-        <Profile  handleName ={handleName}  photo = {<img style={styleImg} src ={Photo} alt=''></img>} fullName ={fullName} bio ={bio} profession={profession}/>
+      <div className="App-header"> 
+        <div >
+         <img style={styleImg} src ={Photo} alt=''></img> 
+        </div>
+        <Profile  handleName ={handleName}  fullName ={fullName} bio ={bio} profession={profession}/>
       </div>
     );
 }
